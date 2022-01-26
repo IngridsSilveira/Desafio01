@@ -20,17 +20,29 @@ body {
      border-radius: 20px;
      margin-top: 100px;
 }
-#foto {
-    position: absolute;
-    bottom: 220px;
-    left: -360px;
+#imagem-circulo {
+    min-width: 375px;
+    max-width: 1440px;
+    width: 100%;
+}
+#foto { 
+    position: fixed;
+    bottom: 250px;
+    left: -320px;  
+    width: 978px;
+    height: 978px;
+    max-width: 180%;
+    object-fit: cover;
 }
 #foto2 {
     position: fixed;
-    top: 260px;
-    right: -350px;
+    top: 240px;
+    right: -370px; 
+    width: 978px;
+    height: 978px;
+    max-width: 180%;
+    object-fit: cover;
 }
-
 img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
