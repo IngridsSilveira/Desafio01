@@ -2,30 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-* {
+*, body::before, body::after {
+    box-sizing: border-box;
+}
+html, body {
     margin: 0px;
     padding: 0px;
 }
 body {
     min-width: 375px;
     max-width: 1440px;
-    background-color: hsl(185, 75%, 39%);
+    background-color: #19a2ae;
 }
-#pag {
+#card {
     position: relative;
      background-color: white;
      width: 350px;
      height: 380px;
      margin: auto;
-     border-radius: 20px;
-     margin-top: 100px;
+     border-radius: 15px;
+     margin-top: 90px;
+     max-width: 100%;
 }
-#imagem-circulo {
-    min-width: 375px;
-    max-width: 1440px;
-    width: 100%;
-}
-#foto { 
+#circulo-top { 
     position: fixed;
     bottom: 250px;
     left: -320px;  
@@ -34,7 +33,7 @@ body {
     max-width: 180%;
     object-fit: cover;
 }
-#foto2 {
+#circulo-bottom {
     position: fixed;
     top: 240px;
     right: -370px; 
@@ -44,10 +43,10 @@ body {
     object-fit: cover;
 }
 img {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
-#imagem1 {
+#profile {
     position: relative;
 }
 #perfil {
@@ -59,7 +58,7 @@ img {
     bottom: -50px;
     left: 120px;
 }
-#titulo {
+#nome {
     padding: 50px;
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -75,7 +74,7 @@ p {
     margin-top: 18px;
     font-size: 18px;
 }
-#texto1 {
+#cidade {
     font-weight: normal;
     color:  hsl(227, 10%, 46%);
     font-size: 14px;
@@ -83,24 +82,24 @@ p {
 }
 hr {
     background-color: rgba(226, 222, 222, 0.483);
-    margin-top: -14px;
+    margin-top: -25px;
 }
-#para {
+#card-text {
     position: absolute;
     right: 265px;
     top: 300px;
 }
-#para2{
+#card-text2{
     position: absolute;
     left: 145px;
     top: 300px;
 }
-#para3 {
+#card-text3 {
     position: absolute;
     left: 255px;
     top: 300px;
 }
-.text {
+.texto-numeros {
     font-weight: bolder;
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -108,10 +107,11 @@ hr {
     font-weight: normal;
     color: hsl(0, 0%, 59%);
     line-height: 10px;
-    margin-top: 2px;
+    margin-top: -10px;
     margin-right: 3px;
     font-size: 10px;
 }
+/*
 .attribution { 
     color: white;
     font-size: 14px; 
@@ -126,4 +126,25 @@ hr {
 }
 .attribution a:hover {
   text-decoration: underline;
+} */
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    #circulo-top { 
+        position: fixed;
+        bottom: 250px;
+        left: -320px;  
+        width: 578px;
+        height: 578px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    #circulo-bottom {
+        position: fixed;
+        top: 240px;
+        right: -370px; 
+        width: 628px;
+        height: 778px;
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
