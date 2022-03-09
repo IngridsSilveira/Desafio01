@@ -26,6 +26,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Ingrid de Souza](https://ingridssilveira.github.io/portfolio/)
+- Website - [Ingrid de Souza](https://ingridssilveira.github.io/IngridSouza/)
 - Frontend Mentor - [@IngridsSilveira](https://www.frontendmentor.io/profile/IngridsSilveira)
 - GitHub - [@IngridsSilveira](https://github.com/IngridsSilveira)

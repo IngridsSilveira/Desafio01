@@ -2,16 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-*, body::before, body::after {
+* {
     box-sizing: border-box;
 }
 html, body {
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    min-width: 375px;
-    max-width: 1440px;
+    margin: 0;
+    padding: 0;
     background-color: #19a2ae;
 }
 #card {
@@ -111,7 +107,7 @@ hr {
     margin-right: 3px;
     font-size: 10px;
 }
-/*
+
 .attribution { 
     color: white;
     font-size: 14px; 
@@ -126,7 +122,7 @@ hr {
 }
 .attribution a:hover {
   text-decoration: underline;
-} */
+} 
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
     #circulo-top { 
